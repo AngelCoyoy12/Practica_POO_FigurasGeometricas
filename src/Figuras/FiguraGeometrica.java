@@ -1,6 +1,6 @@
 package Figuras;
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica { //abstraccion
 
     private double valor1;
 
@@ -16,5 +16,5 @@ public abstract class FiguraGeometrica {
         this.valor1 = valor1;
     }
 
-    public abstract double getArea();
+    public abstract double getArea();//abstraccion
 }
